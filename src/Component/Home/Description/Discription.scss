@@ -1,0 +1,74 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 88vh;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.About {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2;
+}
+.discription {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0 50px 0 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+    background-attachment: fixed;
+    background-image: url(/src/assets/icon.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 100%;
+  section {
+    margin-top: 30px;
+  }
+}
+.reveal-type.About ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.reveal-type.About li {
+  display: list-item !important;
+  margin-bottom: 10px;
+  list-style: cjk-earthly-branch;
+  margin-left: 97px;
+}
+@media screen and (max-width: 678px) {
+  .discription {
+    padding: 0;
+    .reveal-type.About li {
+      margin-left: 53px;
+    }
+  }
+}

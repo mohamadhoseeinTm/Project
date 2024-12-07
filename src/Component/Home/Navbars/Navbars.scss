@@ -17,14 +17,13 @@ $main-bg-color: #209cff;
 }
 
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
   background: var(--clr);
 }
 
 .Main {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

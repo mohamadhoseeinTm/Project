@@ -1,0 +1,29 @@
+.boxImage {
+  border: 2px solid rgb(53, 53, 53);
+  height: 208px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 16px 0px;
+    padding: 3px;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+    p {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: bold;
+      text-align: center;
+    }
+    .figere {
+      width: 139px;
+      > img {
+        width: 100%;
+      }
+    }
+  }
+}
